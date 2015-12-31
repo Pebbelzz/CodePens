@@ -1,0 +1,158 @@
+body{
+  background-color: #4d1000;
+}
+
+.tree{
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  width:40%;
+}
+
+.tree_top{
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 30px solid #006600;
+  postition: absolute;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.tree_2nd_level{
+  width: 0;
+  height: 0;
+  border-left: 55px solid transparent;
+  border-right: 55px solid transparent;
+  border-bottom: 60px solid #006600;
+  postition: absolute;
+  margin-top: -15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.tree_3rd_level{
+  width: 0;
+  height: 0;
+  border-left: 85px solid transparent;
+  border-right: 85px solid transparent;
+  border-bottom: 90px solid #006600;
+  postition: absolute;
+  margin-top: -35px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.tree_4th_level{
+  width: 0;
+  height: 0;
+  border-left: 125px solid transparent;
+  border-right: 125px solid transparent;
+  border-bottom: 130px solid #006600;
+  postition: absolute;
+  margin-top: -65px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.tree_5th_level{
+  width: 0;
+  height: 0;
+  border-left: 155px solid transparent;
+  border-right: 155px solid transparent;
+  border-bottom: 165px solid #006600;
+  postition: absolute;
+  margin-top: -95px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.tree_trunk{
+  background-color: #663300;
+  width: 35px;
+  height: 60px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.ball_2nd_level{
+  background-color: #e6b800;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  margin-top: 28px;
+  margin-left: -17px;
+}
+
+.ball_3rd_level{
+  background-color: #e6b800;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  margin-top: 48px;
+  margin-left: 12px;
+}
+
+.ball_4th_level{
+  background-color: #e6b800;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  margin-top: 68px;
+  margin-left: -32px;
+}
+
+.ball_2_4th_level{
+  background-color: #e6b800;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  margin-top: 83px;
+  margin-left: 32px;
+}
+
+.ball_3_4th_level{
+  background-color: #e6b800;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  margin-top: 108px;
+  margin-left: -62px;
+}
+
+.ball_5th_level{
+  background-color: #e6b800;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  margin-top: 127px;
+  margin-left: -92px;
+}
+
+.ball_2_5th_level{
+  background-color: #e6b800;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  margin-top: 107px;
+  margin-left: 2px;
+}
+
+.ball_3_5th_level{
+  background-color: #e6b800;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  margin-top: 137px;
+  margin-left: 72px;
+}
