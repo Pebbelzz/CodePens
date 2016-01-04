@@ -1,0 +1,57 @@
+.main{
+  width: 50%;
+  position: absolute;
+  margin-right: auto;
+  margin-left: auto;
+}
+.circle{
+  width: 130px;
+  height: 95px;
+  color: #fff;
+  background-color: #111;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 88px;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 20px auto 0 auto;
+  position: realative;
+}
+
+
+@keyframes animation {
+  0%{
+    transform: translate3d(0px, 0px, 0px);
+  }
+  50%{
+    transform: translate3d(500px, 0px, 0px);
+  }
+  100%{
+    transform: translate3d(0px, 0px, 0px);
+  }
+}
+
+#ease{
+  animation: animation 3s infinite;
+}
+
+#easeIn{
+  animation: animation 3s ease-in infinite;
+}
+
+#linear{
+  animation: animation 3s linear infinite;
+}
+
+#easeOut{
+  animation: animation 3s ease-out infinite;
+}
+
+#easeInOut{
+  animation: animation 3s ease-in-out infinite;
+}
+
+#stepStart{
+  animation: animation 3s step-start infinite;
+}
+
