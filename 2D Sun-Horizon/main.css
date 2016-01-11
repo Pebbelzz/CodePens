@@ -1,0 +1,129 @@
+#canvas{
+  width: 800px;
+  height: 600px;
+  position: relative;
+  margin-right:auto;
+  margin-left: auto;
+}
+
+#sky{
+  width: 100%;
+  position: absolute;
+  background-color: #66d9ff;
+  height: 50%;
+}
+
+#sun{
+  height: 100px;
+  width: 22%;
+  background: #ffc34d;
+  position: absolute;
+  border-radius: 50%/100px 100px 0 0;
+  bottom: -13%;
+  right: 35%; 
+}
+
+#ground{
+  width: 100%;
+  height: 50%;
+  background-color: #00802b;
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}
+
+#sunray1{
+  width: 35%;
+  -webkit-transform: rotate(60deg);
+  -moz-transform: rotate(65deg);
+  -ms-transform: rotate(65deg);
+  -o-transform: rotate(65deg);
+  transform: rotate(60deg);
+  top: -15%;
+  left: -6%;
+  border-radius: 45% 0 0 45%;
+}
+
+#sunray2{
+  width: 35%;
+  -webkit-transform: rotate(40deg);
+  -moz-transform: rotate(40deg);
+  -ms-transform: rotate(40deg);
+  -o-transform: rotate(40deg);
+  transform: rotate(40deg);
+  left: -20%;
+  border-radius: 45% 0 0 45%;
+}
+  
+#sunray3{
+  width: 35%;
+  -webkit-transform: rotate(85deg);
+  -moz-transform: rotate(85deg);
+  -ms-transform: rotate(85deg);
+  -o-transform: rotate(85deg);
+  transform: rotate(85deg);
+  left: 20%;
+  top: -68%;
+  border-radius: 45% 0 0 45%;
+}
+
+#sunray4{
+  width: 38%;
+  -webkit-transform: rotate(110deg);
+  -moz-transform: rotate(110deg);
+  -ms-transform: rotate(110deg);
+  -o-transform: rotate(110deg);
+  transform: rotate(110deg);
+  left: 44%;
+  top: -79%;
+  border-radius: 45% 0 0 45%;
+}
+
+#sunray5{
+  width: 38%;
+  -webkit-transform: rotate(133deg);
+  -moz-transform: rotate(133deg);
+  -ms-transform: rotate(133deg);
+  -o-transform: rotate(133deg);
+  transform: rotate(133deg);
+  left: 65%;
+  top: -68%;
+  border-radius: 45% 0 0 45%;
+}
+
+#sunray1, #sunray2, #sunray3, #sunray4, #sunray5 {
+  border: 10px solid #ffc34d;
+  position: relative;
+}
+
+#hill{
+  background-color: #00802b;
+  width: 35%;
+  height: 55%;
+  position: relative;
+  z-index: 2;
+  top: -25%;
+  left: %;
+  border-radius: 50%/100px 100px 0 0;
+}
+
+#hill2{
+  background-color: #00802b;
+  width: 25%;
+  height: 70%;
+  position: relative;
+  z-index: 2;
+  top: -95%;
+  border-radius: 60%/100px 100px 10px 0;
+}
+
+#hill3{
+  background-color: #00802b;
+  width: 35%;
+  height: 40%;
+  position: relative;
+  z-index: 2;
+  top: -135%;
+  right: -55%;
+  border-radius: 300%/400px 600px 10px 200px;
+}
