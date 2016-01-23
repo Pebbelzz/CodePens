@@ -1,0 +1,76 @@
+body{
+  background-color: #D8F7FF;
+}
+
+#main{
+  background-color: #FFFFFF;
+  height: 500px;
+  margin-top: 20%;
+  box-shadow: 30px 100px 50px #B6E7FE, -30px 100px 50px #B6E7FE;
+  border-radius: 25px 25px 0 0;
+}
+
+.glyphicon{
+  font-size: 25px;
+}
+
+#hamburger{
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+#cog{
+  margin-top: 25px;
+}
+
+#midscreen{
+  text-align: center;
+  height: 50px;
+}
+
+#midscreen2{
+  text-align: center;
+  height: 20px;
+}
+
+#midscreen3{
+  text-align: center;
+  height: 35px;
+}
+
+#redBall{
+  height: 20px;
+  width: 20px;
+  background-color: #ff4d4d;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50%;
+}
+
+#midText, #dayText{
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+#middleLine{
+  border-bottom: 2px solid #e6e6e6;
+  height: 30px;
+}
+
+#dayText{
+  line-height: 60px;
+  text-align: center;
+}
+
+
+#number{
+  text-align: center;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+
+#credit{
+text-align: center;
+}
