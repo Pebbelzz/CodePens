@@ -1,0 +1,76 @@
+body{
+	background-color: #454f54;
+}
+
+#mainSign{
+	background-color: #32393D;
+	height: 330px;
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 100px;
+
+}
+
+.user_input, #submitButton{
+	position: relative;
+	width: 250px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#emailDiv{
+	padding-top: 75px;
+}
+
+#email, #password{
+	background-color: #454f54;
+	height: 30px;
+	width: 200px;
+	border: none;
+	border-radius: 3px;
+}
+
+#email:hover, #password:hover{
+	background-color: #5c6970;
+}
+
+#submit{
+	background: -webkit-linear-gradient(top, #33D27E, #3EDE99, #33D27E);
+	background: -moz-linear-gradient(top, #33D27E, #3EDE99, #33D27E);
+	background: -ms-linear-gradient(top, #33D27E, #3EDE99, #33D27E);
+	background: -o-linear-gradient(top, #33D27E, #3EDE99, #33D27E);
+	height: 45px;
+	width: 180px;
+	border: none;
+	border-radius: 3px;
+	color: white;
+	margin-top: 25px;
+	box-shadow: 0 5px 2px -2px #2EB56C;
+	outline: none;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#notSignedIn{
+	text-align: center;
+	color: white;
+	padding-top: 5px;
+}
+
+#notSignedIn a, #credit a{
+	text-decoration: none;
+	color: #ffd480;
+}
+
+#credit{
+	
+	width: 50%;
+	color: white;
+	height: 20px;
+	margin: 20px auto 20px auto;
+	text-align: center;
+	padding-bottom: 20px;
+}
